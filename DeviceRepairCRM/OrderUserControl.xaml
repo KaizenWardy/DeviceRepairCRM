@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="DeviceRepairCRM.OrderUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DeviceRepairCRM"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="1312" Foreground="AliceBlue" FontSize="30" FontFamily="Segoe UI Black">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="512"/>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0">
+            <Image Height="160" Width="160" Margin="20" HorizontalAlignment="Left" Grid.Column="0" Source="Снимок экрана 2022-01-26 113826.png" Stretch="Fill"/>
+            <TextBlock Grid.Column="0" Margin="10, 0" Height="40" Text="REDMI"/>
+            <TextBlock TextWrapping="Wrap" Margin="10, 0" Text="Ультимейт 20 про Максимус ракета отвечаю ебанетесть какой мощный аппарат" FontSize="18" FontFamily="Segoe UI Black"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Column="1">
+            <TextBlock Height="40" Margin="5" Text="ИмяИмяИмяИмяИмяИмя" />
+            <TextBlock Height="40" Margin="5" Text="ФамилияФамилияФамилия" />
+            <TextBlock Margin="5" TextWrapping="Wrap" Text="Аппарат рабочий, просто его из самолета выбросили над тихим океаном, нашли в желудке акуты которая жрала радиоктивные отходы всю жизнь. Потом его взяли китайцы и сделали из него мозги дя своих мартов и на столб разумеется наматали. вот там он из окна и ко мне в карман" FontSize="24"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="2">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Background="Red" Height="40" Width="40"/>
+                <TextBlock Text="Выполняется" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Дата начала" Foreground="AliceBlue" FontSize="20" FontFamily="Segoe UI Black"/>
+                <TextBlock Text="10.20.3040"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Дата кончик" Foreground="AliceBlue" FontSize="20" FontFamily="Segoe UI Black"/>
+                <TextBlock Text="10.20.3040"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Дата конца  " Foreground="AliceBlue" FontSize="20" FontFamily="Segoe UI Black"/>
+                <TextBlock Text="10.20.3040"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label Content="Цена" Foreground="AliceBlue" FontSize="20" FontFamily="Segoe UI Black"/>
+                <TextBlock Text="8 миллиардов"/>
+            </StackPanel>
+        </StackPanel>
+
+        <Label Content="Необходимые детали" FontSize="20" Foreground="AliceBlue" FontFamily="Segoe UI Black" Grid.Column="3" HorizontalAlignment="Center" Height="40" VerticalAlignment="Top"/>
+        <ScrollViewer Grid.Column="3" Margin="10, 50, 10, 10">
+            <StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</UserControl>
