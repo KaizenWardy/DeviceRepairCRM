@@ -15,26 +15,21 @@ using System.Windows.Shapes;
 
 namespace DeviceRepairCRM
 {
-    public partial class MainWindow : Window
+    public partial class OrderFrame : Page
     {
-        public MainWindow()
+        public OrderFrame()
         {
             InitializeComponent();
         }
 
-        private void CloseButton_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
-        }
-
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
-            MainFrame.Content = new OrderFrame();
-        }
-
-        private void DeviceFrameBt_Click(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Content = new DeviceFrame();
+            OrderPageStackPanel.Children.Add(new OrderFrameUC());
+            OrderPageStackPanel.Children.Add(new OrderFrameUC());
+            OrderPageStackPanel.Children.Add(new OrderFrameUC());
+            OrderPageStackPanel.Children.Add(new OrderFrameUC());
+            OrderPageStackPanel.Children.Add(new OrderFrameUC());
+            OrderPageStackPanel.Children.Add(new OrderFrameUC());
         }
     }
 }

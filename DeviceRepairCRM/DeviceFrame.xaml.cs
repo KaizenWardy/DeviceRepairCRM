@@ -16,23 +16,22 @@ using System.Windows.Shapes;
 namespace DeviceRepairCRM
 {
     /// <summary>
-    /// Логика взаимодействия для OrderPage.xaml
+    /// Логика взаимодействия для DeviceFrame.xaml
     /// </summary>
-    public partial class OrderPage : Page
+    public partial class DeviceFrame : Page
     {
-        public OrderPage()
+        public DeviceFrame()
         {
             InitializeComponent();
         }
 
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
-            OrderPageStackPanel.Children.Add(new OrderUserControl());
-            OrderPageStackPanel.Children.Add(new OrderUserControl());
-            OrderPageStackPanel.Children.Add(new OrderUserControl());
-            OrderPageStackPanel.Children.Add(new OrderUserControl());
-            OrderPageStackPanel.Children.Add(new OrderUserControl());
-            OrderPageStackPanel.Children.Add(new OrderUserControl());
+            ManufactureStackPanel.Children.Add(new DeviceFrameManufactureUC());
+            ManufactureStackPanel.Children.Add(new DeviceFrameManufactureUC());
+            ManufactureStackPanel.Children.Add(new DeviceFrameManufactureUC());
+            ManufactureStackPanel.Children.Add(new DeviceFrameManufactureUC());
+            ManufactureStackPanel.Children.Add(new DeviceFrameManufactureUC());
         }
     }
 }

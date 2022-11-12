@@ -18,6 +18,7 @@
             <RowDefinition Height="20"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        
         <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Background="#505050" Orientation="Horizontal"/>
         <TextBlock Grid.Column="0" Text="DeviceRepairCRM" Foreground="#1E1E1E" HorizontalAlignment="Left" FontFamily="Segoe UI Black" FontSize="16"/>
         <Button Grid.Column="1" Grid.Row="0" Width="20" Height="20" Background="OrangeRed" HorizontalAlignment="Right" x:Name="CloseButton" Content="Х" Click="CloseButton_Click"/>
@@ -25,32 +26,32 @@
 
         <StackPanel Background="#696969" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2">
             <Border Margin="5,5,5,40" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Главная" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
+                <Button x:Name="MainFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Главная" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
             </Border>
             <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Заказы" Foreground="#FFD700" FontSize="24" FontFamily="Segoe UI Black"/>
+                <Button x:Name="OrderFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Заказы" Foreground="#FFD700" FontSize="24" FontFamily="Segoe UI Black"/>
             </Border>
             <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Склад" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
+                <Button x:Name="StorageFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Склад" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
             </Border>
             <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Магазин" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
+                <Button x:Name="StoreFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Магазин" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
             </Border>
             <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="История" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
+                <Button x:Name="HistoryFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="История" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
             </Border>
             <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Мастера" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
+                <Button x:Name="MasterFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Мастера" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
             </Border>
             <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Клиенты" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
+                <Button x:Name="ClientFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Клиенты" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
             </Border>
             <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Телефоны" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
+                <Button x:Name="DeviceFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Девайсы" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black" Click="DeviceFrameBt_Click"/>
             </Border>
 
             <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Foreground="#FFD700" FontSize="20" FontFamily="Segoe UI Black">
+                <Button x:Name="FastOrderFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Foreground="#FFD700" FontSize="20" FontFamily="Segoe UI Black">
                     <TextBlock TextWrapping="Wrap" Text="Быстрый заказ"/>
                 </Button>
             </Border>

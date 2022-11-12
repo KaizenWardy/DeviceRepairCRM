@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace DeviceRepairCRM
 {
     /// <summary>
-    /// Логика взаимодействия для OrderUserControl.xaml
+    /// Логика взаимодействия для DeviceFrameManufactureUC.xaml
     /// </summary>
-    public partial class OrderUserControl : UserControl
+    public partial class DeviceFrameManufactureUC : UserControl
     {
-        public OrderUserControl()
+        public DeviceFrameManufactureUC()
         {
             InitializeComponent();
         }

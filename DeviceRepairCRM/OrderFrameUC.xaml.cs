@@ -15,26 +15,14 @@ using System.Windows.Shapes;
 
 namespace DeviceRepairCRM
 {
-    public partial class MainWindow : Window
+    /// <summary>
+    /// Логика взаимодействия для OrderUserControl.xaml
+    /// </summary>
+    public partial class OrderFrameUC : UserControl
     {
-        public MainWindow()
+        public OrderFrameUC()
         {
             InitializeComponent();
-        }
-
-        private void CloseButton_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
-        }
-
-        private void Grid_Loaded(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Content = new OrderFrame();
-        }
-
-        private void DeviceFrameBt_Click(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Content = new DeviceFrame();
         }
     }
 }

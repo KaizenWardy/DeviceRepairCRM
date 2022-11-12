@@ -55,6 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="DeviceFrame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DeviceFrameManufactureUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -63,25 +71,32 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Connect.cs" />
+    <Compile Include="DeviceFrame.xaml.cs">
+      <DependentUpon>DeviceFrame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceFrameManufactureUC.xaml.cs">
+      <DependentUpon>DeviceFrameManufactureUC.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="OrderPage.xaml">
+    <Page Include="OrderFrame.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="OrderUserControl.xaml">
+    <Page Include="OrderFrameUC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OrderPage.xaml.cs">
-      <DependentUpon>OrderPage.xaml</DependentUpon>
+    <Compile Include="OrderFrame.xaml.cs">
+      <DependentUpon>OrderFrame.xaml</DependentUpon>
     </Compile>
-    <Compile Include="OrderUserControl.xaml.cs">
-      <DependentUpon>OrderUserControl.xaml</DependentUpon>
+    <Compile Include="OrderFrameUC.xaml.cs">
+      <DependentUpon>OrderFrameUC.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

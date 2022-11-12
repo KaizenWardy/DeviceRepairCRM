@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\App.xaml
-3848016341
+5-1525033196
 
-9-248491383
+11888180782
 13-1505183044
-MainWindow.xaml;OrderPage.xaml;OrderUserControl.xaml;
+DeviceFrame.xaml;DeviceFrameManufactureUC.xaml;MainWindow.xaml;OrderFrame.xaml;OrderFrameUC.xaml;
 
 True
 
