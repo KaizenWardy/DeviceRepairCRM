@@ -8,17 +8,17 @@
       d:DesignHeight="1052" d:DesignWidth="1512">
 
     <Grid Loaded="Grid_Loaded">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200"/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="80"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <StackPanel Grid.Row="1" Grid.Column="0" x:Name="ManufactureStackPanel">
-            
-        </StackPanel>
+        <Button x:Name="DeviceAddBt" Width="300" Margin="10" HorizontalAlignment="Right" Content="Добавить девайс" Foreground="AliceBlue" FontSize="24" FontFamily="Segoe UI Black" Background="Transparent" BorderThickness="5" BorderBrush="#282828" Click="DeviceAddBt_Click"/>
+
+        <ScrollViewer Grid.Row="1">
+            <StackPanel>
+                
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>

@@ -36,5 +36,14 @@ namespace DeviceRepairCRM
         {
             MainFrame.Content = new DeviceFrame();
         }
+
+        private void OrderFrameBt_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Content = new OrderFrame();
+        }
+        public void DeviceAddBtClick()
+        {
+            MainFrame.Content = new DeviceAddFrame();
+        }
     }
 }

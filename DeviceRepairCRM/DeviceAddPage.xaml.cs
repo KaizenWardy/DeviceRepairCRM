@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace DeviceRepairCRM
 {
     /// <summary>
-    /// Логика взаимодействия для DeviceFrameManufactureUC.xaml
+    /// Логика взаимодействия для DeviceAddPage.xaml
     /// </summary>
-    public partial class DeviceFrameManufactureUC : UserControl
+    public partial class DeviceAddPage : Window
     {
-        public DeviceFrameManufactureUC()
+        public DeviceAddPage()
         {
             InitializeComponent();
         }

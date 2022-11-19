@@ -21,3 +21,29 @@ C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\De
 C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceFrameManufactureUC.baml
 C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\OrderFrame.baml
 C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\OrderFrameUC.baml
+E:\DeviceRepairCRM\DeviceRepairCRM\bin\Debug\DeviceRepairCRM.exe.config
+E:\DeviceRepairCRM\DeviceRepairCRM\bin\Debug\DeviceRepairCRM.exe
+E:\DeviceRepairCRM\DeviceRepairCRM\bin\Debug\DeviceRepairCRM.pdb
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.AssemblyReference.cache
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.SuggestedBindingRedirects.cache
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceFrame.g.cs
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\MainWindow.g.cs
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\OrderFrame.g.cs
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\OrderFrameUC.g.cs
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\App.g.cs
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM_MarkupCompile.cache
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM_MarkupCompile.lref
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceFrame.baml
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\MainWindow.baml
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\OrderFrame.baml
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\OrderFrameUC.baml
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.g.resources
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.Properties.Resources.resources
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.GenerateResource.cache
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.CoreCompileInputs.cache
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.exe
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.pdb
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceFrameUC.g.cs
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceFrameUC.baml
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceAddFrame.g.cs
+E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceAddFrame.baml

@@ -16,24 +16,13 @@ using System.Windows.Shapes;
 namespace DeviceRepairCRM
 {
     /// <summary>
-    /// Логика взаимодействия для DeviceFrame.xaml
+    /// Логика взаимодействия для DeviceFrameUC.xaml
     /// </summary>
-    public partial class DeviceFrame : Page
+    public partial class DeviceFrameUC : UserControl
     {
-        MainWindow mainWindow = new MainWindow();
-        public DeviceFrame()
+        public DeviceFrameUC()
         {
             InitializeComponent();
-        }
-
-        private void Grid_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void DeviceAddBt_Click(object sender, RoutedEventArgs e)
-        {
-            mainWindow.DeviceAddBtClick();
         }
     }
 }
