@@ -22,11 +22,6 @@ namespace DeviceRepairCRM
             InitializeComponent();
         }
 
-        private void CloseButton_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
-        }
-
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
             MainFrame.Content = new OrderFrame();
@@ -40,10 +35,6 @@ namespace DeviceRepairCRM
         private void OrderFrameBt_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Content = new OrderFrame();
-        }
-        public void DeviceAddBtClick()
-        {
-            MainFrame.Content = new DeviceAddFrame();
         }
     }
 }

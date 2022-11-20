@@ -33,7 +33,8 @@ namespace DeviceRepairCRM
 
         private void DeviceAddBt_Click(object sender, RoutedEventArgs e)
         {
-            mainWindow.DeviceAddBtClick();
+            DeviceAddPage deviceAddPage = new DeviceAddPage();
+            deviceAddPage.Show();
         }
     }
 }
