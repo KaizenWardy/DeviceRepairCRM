@@ -55,10 +55,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="DeviceAddPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="DeviceFrame.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -76,9 +72,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Connect.cs" />
-    <Compile Include="DeviceAddPage.xaml.cs">
-      <DependentUpon>DeviceAddPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="DeviceFrame.xaml.cs">
       <DependentUpon>DeviceFrame.xaml</DependentUpon>
     </Compile>

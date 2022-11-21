@@ -45,5 +45,3 @@ E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.exe
 E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.pdb
 E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceFrameUC.g.cs
 E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceFrameUC.baml
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceAddPage.g.cs
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceAddPage.baml

@@ -20,7 +20,6 @@ namespace DeviceRepairCRM
     /// </summary>
     public partial class DeviceFrame : Page
     {
-        MainWindow mainWindow = new MainWindow();
         public DeviceFrame()
         {
             InitializeComponent();
@@ -29,12 +28,6 @@ namespace DeviceRepairCRM
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
 
-        }
-
-        private void DeviceAddBt_Click(object sender, RoutedEventArgs e)
-        {
-            DeviceAddPage deviceAddPage = new DeviceAddPage();
-            deviceAddPage.Show();
         }
     }
 }
