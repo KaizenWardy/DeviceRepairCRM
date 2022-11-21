@@ -27,7 +27,9 @@ namespace DeviceRepairCRM
 
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
-
+            DevicePartList.Children.Add(new UserControls.DeviceFramePartsUC());
+            DevicePartList.Children.Add(new UserControls.DeviceFramePartsUC());
+            DevicePartList.Children.Add(new UserControls.DeviceFramePartsUC());
         }
     }
 }

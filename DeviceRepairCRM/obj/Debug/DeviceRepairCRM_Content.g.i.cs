@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("%d0%a1%d0%bd%d0%b8%d0%bc%d0%be%d0%ba%20%d1%8d%d0%ba%d1%80%d0%b0%d0%bd%d0%b0%20202" +
-    "2-01-26%20113826.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("usercontrols/%d0%a1%d0%bd%d0%b8%d0%bc%d0%be%d0%ba%20%d1%8d%d0%ba%d1%80%d0%b0%d0%b" +
+    "d%d0%b0%202022-01-26%20113826.png")]
 
 
