@@ -24,5 +24,6 @@ namespace DeviceRepairCRM
         {
             InitializeComponent();
         }
+        public string Id = "";
     }
 }

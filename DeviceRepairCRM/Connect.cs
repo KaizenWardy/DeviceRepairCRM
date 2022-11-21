@@ -5,11 +5,12 @@ namespace DeviceRepairCRM
     class Connect
     {
         public SqlConnection Connection = new SqlConnection(@"
-            DataSource = WIN-MKI4LD09KJR\SQLEXPRESS;
+            Data Source = DESKTOP-P35LKR0\SQLEXPRESS01;
             Initial Catalog = RepairShop;
             Integrated Security = true;");
         public SqlDataReader SqlSelect(string command)
         {
+            Connection.Open();
             SqlCommand cmd = new SqlCommand(command, Connection);
             SqlDataReader reader = cmd.ExecuteReader();
             return reader;

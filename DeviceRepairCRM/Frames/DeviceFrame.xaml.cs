@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,9 +28,31 @@ namespace DeviceRepairCRM
 
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
-            DevicePartList.Children.Add(new UserControls.DeviceFramePartsUC());
-            DevicePartList.Children.Add(new UserControls.DeviceFramePartsUC());
-            DevicePartList.Children.Add(new UserControls.DeviceFramePartsUC());
+            DeviceList.Children.Clear();
+            SqlDataReader reader = new Connect().SqlSelect($@"SELECT TOP (1000)
+Device.Id
+,Device.Article
+,Device.Model
+,Manufacture.Name 
+AS Manufacture
+FROM [RepairShop].[dbo].[Device]
+INNER JOIN
+Manufacture 
+ON Device.Manufacture = Manufacture.Id");
+            if (reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    DeviceFrameUC uc = new DeviceFrameUC();
+
+                    uc.Id = reader[0].ToString();
+                    uc.DeviceManufacture.Content = reader[3];
+                    uc.DeviceArticle.Content = reader[1];
+                    uc.DeviceModel.Content = reader[2];
+                    
+                    DeviceList.Children.Add(uc);
+                }
+            }
         }
     }
 }

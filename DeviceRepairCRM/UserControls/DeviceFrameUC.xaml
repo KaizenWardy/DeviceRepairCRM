@@ -5,18 +5,22 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DeviceRepairCRM"
              mc:Ignorable="d" 
-             d:DesignHeight="140" d:DesignWidth="330">
+             d:DesignHeight="260" d:DesignWidth="200" Padding="5">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="180"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
-
-        <Image Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" Source="/UserControls/Снимок экрана 2022-01-26 113826.png"/>
+        
+        <Image x:Name="DevicePhoto" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.RowSpan="3" Height="180" Width="180" Source="/UserControls/Снимок экрана 2022-01-26 113826.png" Stretch="UniformToFill"/>
+        <Label x:Name="DeviceArticle" Grid.Row="1" Grid.ColumnSpan="2" Padding="0" Content="SM-A515F" Foreground="AliceBlue" FontSize="12" FontFamily="Segoe UI Black"/>
+        <Label x:Name="DeviceManufacture" Grid.Row="2" Grid.ColumnSpan="2" Padding="0" Content="Samsung" Foreground="AliceBlue" FontSize="12" FontFamily="Segoe UI Black"/>
+        <Label x:Name="DeviceModel" Grid.Row="3" Grid.ColumnSpan="2" Padding="0" Content="Galaxy A51" Foreground="AliceBlue" FontSize="12" FontFamily="Segoe UI Black"/>
     </Grid>
 </UserControl>

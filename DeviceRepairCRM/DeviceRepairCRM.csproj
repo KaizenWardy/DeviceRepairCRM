@@ -138,5 +138,8 @@
   <ItemGroup>
     <Resource Include="UserControls\Снимок экрана 2022-01-26 113826.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Img\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
