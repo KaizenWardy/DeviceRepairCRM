@@ -55,11 +55,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="DeviceFrame.xaml">
+    <Page Include="Frames\DeviceFrame.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="DeviceFrameUC.xaml">
+    <Page Include="UserControls\DeviceFrameUC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -72,30 +72,30 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Connect.cs" />
-    <Compile Include="DeviceFrame.xaml.cs">
+    <Compile Include="Frames\DeviceFrame.xaml.cs">
       <DependentUpon>DeviceFrame.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DeviceFrameUC.xaml.cs">
+    <Compile Include="UserControls\DeviceFrameUC.xaml.cs">
       <DependentUpon>DeviceFrameUC.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="OrderFrame.xaml">
+    <Page Include="Frames\OrderFrame.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="OrderFrameUC.xaml">
+    <Page Include="UserControls\OrderFrameUC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OrderFrame.xaml.cs">
+    <Compile Include="Frames\OrderFrame.xaml.cs">
       <DependentUpon>OrderFrame.xaml</DependentUpon>
     </Compile>
-    <Compile Include="OrderFrameUC.xaml.cs">
+    <Compile Include="UserControls\OrderFrameUC.xaml.cs">
       <DependentUpon>OrderFrameUC.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
