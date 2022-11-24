@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DeviceRepairCRM"
              mc:Ignorable="d" 
-             d:DesignHeight="260" d:DesignWidth="200" Padding="5">
+             d:DesignHeight="260" d:DesignWidth="200" Padding="5" MouseDoubleClick="UserControl_MouseDoubleClick">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>

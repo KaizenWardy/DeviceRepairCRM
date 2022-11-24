@@ -30,15 +30,15 @@ namespace DeviceRepairCRM
         {
             DeviceList.Children.Clear();
             SqlDataReader reader = new Connect().SqlSelect($@"SELECT TOP (1000)
-Device.Id
-,Device.Article
-,Device.Model
-,Manufacture.Name 
-AS Manufacture
-FROM [RepairShop].[dbo].[Device]
-INNER JOIN
-Manufacture 
-ON Device.Manufacture = Manufacture.Id");
+            Device.Id
+            ,Device.Article
+            ,Device.Model
+            ,Manufacture.Name 
+            AS Manufacture
+            FROM [RepairShop].[dbo].[Device]
+            INNER JOIN
+            Manufacture 
+            ON Device.Manufacture = Manufacture.Id");
             if (reader.HasRows)
             {
                 while (reader.Read())
@@ -51,6 +51,31 @@ ON Device.Manufacture = Manufacture.Id");
                     uc.DeviceModel.Content = reader[2];
                     
                     DeviceList.Children.Add(uc);
+                }
+            }
+
+            
+        }
+        public void DeviceOptionLoad(int id)
+        {
+            SqlDataReader reader = new Connect().SqlSelect($@"SELECT
+            Device.Article
+            ,Device.Model
+            ,Device.YearOfRelease
+            ,Manufacture.Name 
+            AS Manufacture
+            FROM [RepairShop].[dbo].[Device]
+            INNER JOIN
+            Manufacture 
+            ON Device.Manufacture = Manufacture.Id
+            where Device.Id = {id}");
+            if (reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    DeviceName.Text = reader[3].ToString() + reader[2].ToString();
+                    DeviceArticle.Content = reader[1].ToString();
+                    DeviceReleaseYear.Content = reader[2].ToString();
                 }
             }
         }

@@ -25,5 +25,10 @@ namespace DeviceRepairCRM
             InitializeComponent();
         }
         public string Id = "";
+
+        public void UserControl_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            deviceOptionLoad();
+        }
     }
 }
