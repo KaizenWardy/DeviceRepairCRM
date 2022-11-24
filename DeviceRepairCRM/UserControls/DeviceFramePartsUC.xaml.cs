@@ -24,5 +24,11 @@ namespace DeviceRepairCRM.UserControls
         {
             InitializeComponent();
         }
+        public DeviceFrame deviceFrame;
+        public int id;
+        private void DevicePartDecreesBt_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

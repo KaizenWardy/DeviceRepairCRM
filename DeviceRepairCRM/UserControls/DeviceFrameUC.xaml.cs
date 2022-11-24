@@ -24,11 +24,16 @@ namespace DeviceRepairCRM
         {
             InitializeComponent();
         }
-        public string Id = "";
-
-        public void UserControl_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        public int Id = 0;
+        public DeviceFrame deviceFrame;
+        public void UserControl_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            deviceOptionLoad();
+            deviceFrame.DeviceOptionLoad(Id);
+        }
+
+        private void UserControl_MouseMove(object sender, MouseEventArgs e)
+        {
+
         }
     }
 }
