@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\
+C:\Users\Wardy\Documents\GitHub\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\
 DeviceRepairCRM
 none
 false
 DEBUG;TRACE
-E:\DeviceRepairCRM\DeviceRepairCRM\App.xaml
+C:\Users\Wardy\Documents\GitHub\DeviceRepairCRM\DeviceRepairCRM\App.xaml
 665761239
 
-11-1662198013
+12550680665
 151937372271
 Frames\DeviceFrame.xaml;UserControls\DeviceFramePartsUC.xaml;UserControls\DeviceFrameUC.xaml;MainWindow.xaml;Frames\OrderFrame.xaml;UserControls\OrderFrameUC.xaml;
 
-False
+True
 
