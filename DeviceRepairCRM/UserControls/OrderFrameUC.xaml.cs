@@ -1,28 +1,55 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DeviceRepairCRM.Frames;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace DeviceRepairCRM
 {
-    /// <summary>
-    /// Логика взаимодействия для OrderUserControl.xaml
-    /// </summary>
     public partial class OrderFrameUC : UserControl
     {
+        public int Clientid;
+        public int DeviceId;
+        public int OrderId;
+        public int OrderStatusInt;
+        public OrderFrame OrderFrame;
         public OrderFrameUC()
         {
             InitializeComponent();
+        }
+
+        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (OrderStatusInt == 1)
+            {
+                OrderStatus.Background = (SolidColorBrush)new BrushConverter().ConvertFromString("#EC2D01");
+            }
+            else if (OrderStatusInt == 2)
+            {
+                OrderStatus.Background = (SolidColorBrush)new BrushConverter().ConvertFromString("#008000");
+                OrderEndDateTextBlock.Visibility = Visibility.Visible;
+                OrderEndDate.Visibility = Visibility.Visible;
+            }
+
+        }
+
+        private void OrderStatus_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (OrderStatusInt == 2)
+            {
+                return;
+            }
+            else
+            {
+
+                ChangeStatusWarning changeStatusWarning = new ChangeStatusWarning();
+                changeStatusWarning.OrderId = OrderId;
+                changeStatusWarning.frame = OrderFrame;
+                changeStatusWarning.OrderStatusInt = OrderStatusInt;
+                changeStatusWarning.ShowDialog();
+                Grid_Loaded(sender, e);
+            }
+            
         }
     }
 }

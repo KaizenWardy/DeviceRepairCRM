@@ -1,49 +1,98 @@
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\bin\Debug\DeviceRepairCRM.exe.config
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\bin\Debug\DeviceRepairCRM.exe
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\bin\Debug\DeviceRepairCRM.pdb
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\MainWindow.g.cs
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\App.g.cs
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM_MarkupCompile.cache
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM_MarkupCompile.lref
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\MainWindow.baml
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.g.resources
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.Properties.Resources.resources
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.GenerateResource.cache
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.exe
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.pdb
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceFrame.g.cs
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceFrameManufactureUC.g.cs
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\OrderFrame.g.cs
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\OrderFrameUC.g.cs
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceFrame.baml
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceFrameManufactureUC.baml
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\OrderFrame.baml
-C:\Users\User\Desktop\Nice Programm\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\OrderFrameUC.baml
-E:\DeviceRepairCRM\DeviceRepairCRM\bin\Debug\DeviceRepairCRM.exe.config
-E:\DeviceRepairCRM\DeviceRepairCRM\bin\Debug\DeviceRepairCRM.exe
-E:\DeviceRepairCRM\DeviceRepairCRM\bin\Debug\DeviceRepairCRM.pdb
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.AssemblyReference.cache
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.SuggestedBindingRedirects.cache
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\MainWindow.g.cs
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\App.g.cs
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM_MarkupCompile.cache
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM_MarkupCompile.lref
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\MainWindow.baml
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.g.resources
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.Properties.Resources.resources
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.GenerateResource.cache
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.CoreCompileInputs.cache
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.exe
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.pdb
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\Frames\DeviceFrame.g.cs
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\UserControls\DeviceFrameUC.g.cs
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\Frames\OrderFrame.g.cs
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\UserControls\OrderFrameUC.g.cs
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\Frames\DeviceFrame.baml
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\UserControls\DeviceFrameUC.baml
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\Frames\OrderFrame.baml
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\UserControls\OrderFrameUC.baml
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\UserControls\DeviceFramePartsUC.g.cs
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\UserControls\DeviceFramePartsUC.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\bin\Debug\DeviceRepairCRM.exe.config
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\bin\Debug\DeviceRepairCRM.exe
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\bin\Debug\DeviceRepairCRM.pdb
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\MasterFrame.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\NewOrderClientUC.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\DeviceFrame.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\MasterFrame.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\NewOrderFrames\ClientFrame.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\NewOrderFrames\DeviceSelectFrame.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\NewOrderFrames\NewOrderInfoFrame.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\NewOrderWindow.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\DeviceFramePartsUC.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\DeviceFrameUC.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\OrderFrame.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\DeviceSelectUC.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\MasterFrameUC.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\NewOrderClientUC.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\OrderFrameUC.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\App.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM_MarkupCompile.cache
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM_MarkupCompile.lref
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\App.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\DeviceFrame.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\NewOrderFrames\ClientFrame.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\NewOrderFrames\DeviceSelectFrame.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\NewOrderFrames\NewOrderInfoFrame.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\NewOrderWindow.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Styles\Colors.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Styles\Style.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\DeviceFramePartsUC.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\DeviceFrameUC.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\OrderFrame.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\DeviceSelectUC.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\MasterFrameUC.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\OrderFrameUC.baml
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.g.resources
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.Properties.Resources.resources
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.GenerateResource.cache
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.exe
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.pdb
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\ChangeStatusWarning.g.cs
+C:\Users\User\Desktop\валеева\ВАЛЕЕВА 2023\дип\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\ChangeStatusWarning.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\ClientFrame.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\MasterFrame.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\NewOrderClientUC.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\ChangeStatusWarning.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\ClientFrame.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\DeviceFrame.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\MasterFrame.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\NewOrderFrames\ClientFrame.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\NewOrderFrames\DeviceSelectFrame.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\NewOrderFrames\NewOrderInfoFrame.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\NewOrderWindow.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\ClientFrameUC.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\DeviceFramePartsUC.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\DeviceFrameUC.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\OrderFrame.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\DeviceSelectUC.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\MasterFrameUC.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\NewOrderClientUC.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\OrderFrameUC.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\App.g.cs
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM_MarkupCompile.cache
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM_MarkupCompile.lref
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.exe
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.pdb
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\bin\Debug\DeviceRepairCRM.exe.config
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\bin\Debug\DeviceRepairCRM.exe
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\bin\Debug\DeviceRepairCRM.pdb
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\App.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\ChangeStatusWarning.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\DeviceFrame.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\NewOrderFrames\ClientFrame.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\NewOrderFrames\DeviceSelectFrame.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\NewOrderFrames\NewOrderInfoFrame.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\NewOrderWindow.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Styles\Colors.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Styles\Style.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\ClientFrameUC.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\DeviceFramePartsUC.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\DeviceFrameUC.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\Frames\OrderFrame.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\DeviceSelectUC.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\MasterFrameUC.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\UserControls\OrderFrameUC.baml
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.g.resources
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.Properties.Resources.resources
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.GenerateResource.cache
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\DeviceRepairCRM.csproj.CoreCompileInputs.cache

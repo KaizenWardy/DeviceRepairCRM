@@ -5,7 +5,7 @@ namespace DeviceRepairCRM
     class Connect
     {
         public SqlConnection Connection = new SqlConnection(@"
-            Data Source = DESKTOP-P35LKR0\SQLEXPRESS01;
+            Data Source = WIN-FAHF3C7J7BR\SQLEXPRESS01;
             Initial Catalog = RepairShop;
             Integrated Security = true;");
         public SqlDataReader SqlSelect(string command)
@@ -17,6 +17,7 @@ namespace DeviceRepairCRM
         }
         public int SqlEditAddDel(string command)
         {
+            Connection.Open();
             SqlCommand cmd = new SqlCommand(command, Connection);
             int a = cmd.ExecuteNonQuery();
             return a;

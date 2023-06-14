@@ -1,0 +1,105 @@
+﻿<Page x:Class="DeviceRepairCRM.Frames.NewOrderFrames.ClientFrame"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DeviceRepairCRM.Frames.NewOrderFrames"
+      mc:Ignorable="d" 
+      d:DesignHeight="420" 
+      d:DesignWidth="400"
+      Title="ClientFrame">
+
+    <Grid Loaded="Grid_Loaded">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1">
+            <TextBlock
+                Style="{StaticResource MiniTextBlock}"
+                Margin="0,10"
+                Text="Имя Клиента: "
+                HorizontalAlignment="Right"/>
+            <TextBox 
+                Style="{StaticResource MiniTextBox}"
+                x:Name="FName"
+                Grid.Row="1" 
+                Margin="10"
+                Width="180"
+                TextChanged="ClientName_TextChanged"/>
+
+            <TextBlock 
+                Style="{StaticResource MiniTextBlock}"
+                Margin="0,10"
+                Text="Фамилия Клиента: "
+                HorizontalAlignment="Right"/>
+            <TextBox 
+                Style="{StaticResource MiniTextBox}"
+                x:Name="SName" 
+                Margin="10" 
+                Width="180"
+                TextChanged="ClientName_TextChanged"/>
+
+            <TextBlock
+                Style="{StaticResource MiniTextBlock}"
+                Margin="0,10"
+                Text="Номер телефона Клиента: "
+                HorizontalAlignment="Right"/>
+            <TextBox 
+                Style="{StaticResource MiniTextBox}"
+                x:Name="Phone"
+                Margin="10"
+                Width="180"
+                TextChanged="ClientName_TextChanged"
+                PreviewTextInput="Phone_PreviewTextInput" />
+
+        </StackPanel>
+        
+            <Border 
+                Style="{StaticResource MiniBtBorder}"
+                    x:Name="ClearClientNameBorder"
+                Grid.Row="2">
+                <Button 
+                        Style="{StaticResource MiniButton}"
+                        x:Name="ClearClientName"
+                        Content="Очистить"
+                        Click="ClearClientName_Click"/>
+            </Border>
+        
+
+        <ScrollViewer 
+            Grid.Row="1"
+            Grid.Column="1">
+            <StackPanel
+                x:Name="ClientNameList">
+            </StackPanel>
+        </ScrollViewer>
+
+        <Border 
+            x:Name="NewClient_Button_border"
+            Style="{StaticResource MiniBtBorder}">
+            <Button 
+                Style="{StaticResource MiniButton}"
+                x:Name="NewClient_Button" 
+                Content="Новый Клиент"
+            Click="NewClient_Button_Click"/>
+        </Border>
+        <Border 
+            x:Name="NextBtBorder"
+            Style="{StaticResource MiniBtBorder}"
+            Grid.Row="2"
+            Grid.Column="1">
+            <Button 
+                Style="{StaticResource MiniButton}"
+                x:Name="NextBt" 
+                Content="Продолжить"
+            Click="NextBt_Click"/>
+        </Border>
+    </Grid>
+</Page>

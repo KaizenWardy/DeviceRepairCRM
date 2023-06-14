@@ -5,43 +5,116 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DeviceRepairCRM"
              mc:Ignorable="d" 
-             d:DesignHeight="200" d:DesignWidth="1312" Foreground="AliceBlue" FontSize="16" FontFamily="Segoe UI Black">
-    <Grid>
+             Height="265"
+             Width="310"
+             Background="{StaticResource BGSecondaryColor}"
+             MouseDown="OrderStatus_MouseDown"
+             Margin="5" >
+    <Grid Loaded="Grid_Loaded">
+
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="20"/>
-            <ColumnDefinition Width="250"/>
-            <ColumnDefinition Width="500"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="8*"/>
         </Grid.ColumnDefinitions>
-        
+
+        <TextBlock
+            x:Name="DisableBlock"
+            Width="310"
+            Height="265"
+            Background="red"
+            Grid.ColumnSpan="3"
+            Visibility="Hidden"
+            Panel.ZIndex="1"/>
         <StackPanel Grid.Column="0">
-            <TextBlock Height="190" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Red"/>
+            <TextBlock FontSize="200"
+                       x:Name="OrderStatus"
+                       Width="26" 
+                       HorizontalAlignment="Center"
+                       Height="271"/>
         </StackPanel>
 
-        <StackPanel Grid.Column="1">
-            <StackPanel Orientation="Horizontal">
-                <Image Height="80" Width="80" Margin="10" HorizontalAlignment="Left" Grid.Column="0" Source="Снимок экрана 2022-01-26 113826.png" Stretch="Fill"/>
-                <StackPanel>
-                    <TextBlock Text="10.20.3040" HorizontalAlignment="Center"/>
-                    <TextBlock Text="10.20.3040" HorizontalAlignment="Center"/>
-                    <TextBlock Text="01823098123098 Р." HorizontalAlignment="Center"/>
-                </StackPanel>
-            </StackPanel>
-            <TextBlock Grid.Column="1" Margin="5, 0" Height="20" Text="REDMI"/>
-            <TextBlock TextWrapping="Wrap" Margin="5, 0" Text="Ультимейт 20 про Максимус ракета отвечаю ебанетесть какой мощный аппарат" FontSize="12   " FontFamily="Segoe UI Black" Height="76"/>
+        <StackPanel 
+            Grid.Column="1">
+            
+            <TextBlock 
+                        x:Name="OrderPrice"
+                        Text="2250 Р."
+                        Style="{StaticResource TextOrderFrameUC}"/>
+            <TextBlock 
+                        x:Name="OrderClientPhone"
+                        Text="7987302797123452345"
+                        Style="{StaticResource TextOrderFrameUC}"
+                Margin="0"
+                Padding="0"/>
+            <TextBlock
+                Style="{StaticResource TextOrderFrameUC}"
+                Grid.Column="1" 
+                x:Name="OrderDeviceType"
+                Margin="5, 5"
+                Height="20"
+                Text=""/>
+            <TextBlock
+                Style="{StaticResource TextOrderFrameUC}"
+                Grid.Column="1" 
+                x:Name="OrderDeviceManuf"
+                Margin="5, 0"
+                Height="20"
+                Text=""/>
+            <TextBlock 
+                Style="{StaticResource TextOrderFrameUC}" 
+                Margin="5, 0"
+                x:Name="OrderDeviceModel"
+                Text="модель модель модель модель"
+                Height="40"/>
+            <TextBlock 
+                Style="{StaticResource TextOrderFrameUC}" 
+                Margin="5, 0" 
+                x:Name="OrderDeviceArt"
+                Text="артикул"
+                Height="20"/>
+            <TextBlock 
+                Style="{StaticResource TextOrderFrameUC}" 
+                Margin="5, 0"
+                Text="Начало:"
+                Height="20"/>
+            <TextBlock 
+                Style="{StaticResource TextOrderFrameUC}" 
+                Margin="5, 0" 
+                x:Name="OrderStartDate"
+                Text=""
+                Height="40"/>
+            <TextBlock 
+                Style="{StaticResource TextOrderFrameUC}" 
+                Margin="5, 0"
+                x:Name="OrderEndDateTextBlock"
+                Text="Конец:"
+                Visibility="Hidden"
+                Height="20"/>
+            <TextBlock 
+                Style="{StaticResource TextOrderFrameUC}" 
+                Margin="5, 0" 
+                x:Name="OrderEndDate"
+                Text=""
+                Visibility="Hidden"
+                Height="40"/>
+            
         </StackPanel>
-        
+
         <StackPanel Grid.Column="2">
-            <TextBlock Height="20" Margin="5" Text="имяфамилияимяфамилияимяфамилия" />
-            <TextBlock Margin="5" TextWrapping="Wrap" Text="Аппарат рабочий, просто его из самолета выбросили над тихим океаном, нашли в желудке акуты которая жрала радиоктивные отходы всю жизнь. Потом его взяли китайцы и сделали из него мозги дя своих мартов и на столб разумеется наматали. вот там он из окна и ко мне в карман" FontSize="18"/>
+            <TextBlock 
+                Style="{StaticResource TextOrderFrameUC}"
+                Height="20"
+                Margin="5" 
+                x:Name="OrderClient"
+                Text="имяфамилия имяфамилия имяфамилия имяфамилия имяфамилия " />
+            <TextBlock 
+                Style="{StaticResource TextOrderFrameUC}"
+                Margin="5" 
+                x:Name="OrderInfo"
+                Height="100"
+                Text="описание описание описание описание " 
+                FontSize="18"/>
         </StackPanel>
-
-
-        <Label Content="Необходимые детали" FontSize="20" Foreground="AliceBlue" FontFamily="Segoe UI Black" Grid.Column="3" HorizontalAlignment="Center" Height="40" VerticalAlignment="Top"/>
-        <ScrollViewer Grid.Column="3" Margin="10, 40. 10, 10">
-            <StackPanel>
-            </StackPanel>
-        </ScrollViewer>
-
     </Grid>
 </UserControl>

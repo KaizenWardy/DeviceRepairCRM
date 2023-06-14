@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DeviceRepairCRM.Frames;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace DeviceRepairCRM
 {
@@ -22,19 +10,26 @@ namespace DeviceRepairCRM
             InitializeComponent();
         }
 
-        private void Grid_Loaded(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Content = new OrderFrame();
-        }
+        public void Grid_Loaded(object sender, RoutedEventArgs e)
+        { MainFrame.Content = new OrderFrame(); }
 
         private void DeviceFrameBt_Click(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Content = new DeviceFrame();
-        }
+        {MainFrame.Content = new DeviceFrame();}
 
         private void OrderFrameBt_Click(object sender, RoutedEventArgs e)
+        {MainFrame.Content = new OrderFrame();}
+
+        private void MasterFrameBt_Click(object sender, RoutedEventArgs e)
+        {MainFrame.Content = new MasterFrame();}
+        private void ClientFrameBt_Click(object sender, RoutedEventArgs e)
+        {MainFrame.Content = new ClientFrame();}
+
+        private void FastOrderFrameBt_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Content = new OrderFrame();
+            NewOrderWindow newOrderWindow = new NewOrderWindow();
+            newOrderWindow.MainWindow = this;
+            newOrderWindow.Show();
         }
+
     }
 }

@@ -1,0 +1,40 @@
+﻿<Window x:Class="DeviceRepairCRM.Frames.ChangeStatusWarning"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeviceRepairCRM.Frames"
+        mc:Ignorable="d"
+        Background="{StaticResource BGSecondaryColor}"
+        Height="200" Width="220">
+    <Grid Loaded="Grid_Loaded">
+        <StackPanel>
+            
+        <TextBlock
+            Style="{StaticResource MiniTextBlock}"
+            Text="Укажите мастера, выполневшего ремонт."
+            TextWrapping="Wrap"
+            HorizontalAlignment="Center"
+            TextAlignment="Center"
+            Height="40"/>
+        <ComboBox 
+            x:Name="MasterComboBox"
+            Margin="10"
+            Height="40" 
+            Width="200"
+            HorizontalAlignment="Center"
+            Background="{StaticResource BGDarkColor}"
+            FontSize="20"
+            FontFamily="Segoe UI Black"
+            SelectedIndex="0">
+            <ComboBoxItem Content="Мастер"/>
+        </ComboBox>
+            
+            <Border Style="{StaticResource MiniBtBorder}">
+                <Button x:Name="MasterSelectBt" 
+                        Content="Указать Мастера"
+                        Style="{StaticResource MiniButton}" Click="MasterSelectBt_Click"/>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>

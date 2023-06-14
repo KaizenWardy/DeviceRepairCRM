@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="DeviceRepairCRM.UserControls.ClientFrameUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DeviceRepairCRM.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" 
+             d:DesignWidth="190"
+             Margin="5"
+             Padding="5"
+             Background="{StaticResource BGSecondaryColor}">
+    <Grid>
+        <StackPanel>
+            <TextBlock 
+                x:Name="FirstName"
+                Style="{StaticResource MiniTextBlock}"
+                Margin="5"
+                Width="180"
+                Text="Имя Имя Имя Имя "/>
+            <TextBlock 
+                x:Name="SecondName"
+                Style="{StaticResource MiniTextBlock}"
+                Margin="5"
+                Width="180"
+                Text="Фамилия Фамилия "/>
+            <TextBlock 
+                x:Name="Phone"
+                Style="{StaticResource MiniTextBlock}"
+                Margin="5"
+                Width="180"
+                Text="123412341234"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

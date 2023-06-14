@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="DeviceRepairCRM.UserControls.DeviceSelectUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DeviceRepairCRM.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="100"
+             d:DesignWidth="250"
+             Margin="2"
+             Background="YellowGreen"
+             MouseDown="Grid_MouseDown">
+    <Grid>
+        <StackPanel>
+            <TextBlock
+                Style="{StaticResource MiniTextBlock}"
+                Width="250"
+                x:Name="UCDeviceMnf"
+                Text="Производитель Производитель "/>
+            <TextBlock 
+                Style="{StaticResource MiniTextBlock}"
+                Width="250"
+                x:Name="UCDeviceMdl"
+                Text="Модель Модель Модель"/>
+            <TextBlock
+                Style="{StaticResource MiniTextBlock}"
+                Width="250"
+                x:Name="UCDeviceArt"
+                Text="Артикул Артикул Артикул "/>
+        </StackPanel>
+    </Grid>
+</UserControl>

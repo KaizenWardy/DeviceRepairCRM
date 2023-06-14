@@ -1,0 +1,117 @@
+﻿<Page x:Class="DeviceRepairCRM.Frames.NewOrderFrames.DeviceSelectFrame"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DeviceRepairCRM.Frames.NewOrderFrames"
+      mc:Ignorable="d" 
+      d:DesignHeight="400"
+      d:DesignWidth="400"
+      Title="DeviceSelectFrame">
+
+    <Grid Loaded="Grid_Loaded">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition />
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1">
+            <TextBlock 
+                Style="{StaticResource MiniTextBlock}"
+                Margin="0,10"
+                Text="Производитель: "/>
+            <TextBox
+                Style="{StaticResource MiniTextBox}"
+                x:Name="DeviceMNf" 
+                Margin="10"
+                Width="180"
+                HorizontalAlignment="Left"
+                TextChanged="DeviceMNf_TextChanged"/>
+            
+            <TextBlock 
+                Style="{StaticResource MiniTextBlock}"
+                Margin="0,10"
+                Text="Модель: " />
+            <TextBox 
+                Style="{StaticResource MiniTextBox}"
+                x:Name="DeviceMdl"
+                Margin="10"
+                Width="180"
+                HorizontalAlignment="Right"
+                TextChanged="DeviceMNf_TextChanged"/>
+            
+            <TextBlock
+                Style="{StaticResource MiniTextBlock}"
+                Margin="0,10" 
+                Text="Артикул: "/>
+            <TextBox 
+                Style="{StaticResource MiniTextBox}"
+                x:Name="DeviceArt"
+                Margin="10"
+                Width="180"
+                HorizontalAlignment="Right"
+                TextChanged="DeviceMNf_TextChanged"/>
+        </StackPanel>
+        
+        <ComboBox 
+            Grid.Column="1"
+            Width="180"
+            Height="40"
+            
+            FontSize="19"
+            FontFamily="Segoe UI Black"
+            SelectedIndex="0">
+            <ComboBoxItem Content="Тип устройства"/>
+            <ComboBoxItem Content="Телефон"/>
+            <ComboBoxItem Content="Планшет"/>
+        </ComboBox>
+        
+            <Border Style="{StaticResource MiniBtBorder}"
+                    Grid.Row="2"
+                    Visibility="Visible"
+                    x:Name="ClearDeviceNameBtBorder">
+                <Button x:Name="ClearDeviceNameBt" 
+                        Content="Очистить"
+                        Click="ClearDeviceNameBt_Click"
+                        Style="{StaticResource MiniButton}"/>
+            </Border>
+        
+        <StackPanel 
+            Grid.Row="1"
+            Grid.Column="1">
+            <ScrollViewer
+                Height="264">
+                <StackPanel 
+                x:Name="DeviceNameList">
+                </StackPanel>
+            </ScrollViewer>
+        </StackPanel>
+
+        <Border Style="{StaticResource MiniBtBorder}"
+                Grid.Row="2"
+                Grid.Column="1"
+                x:Name="NextBtBorder">
+            <Button 
+                x:Name="NextBt" 
+                Content="Продолжить"
+                Click="NextBt_Click"
+                Style="{StaticResource MiniButton}"/>
+        </Border>
+
+
+        <Border Style="{StaticResource MiniBtBorder}"
+                Visibility="Visible"
+                x:Name="NewDeviceBtBorder">
+            <Button 
+                x:Name="NewDeviceBt"
+                Content="Новое устройство"
+                Click="NewDeviceBt_Click"
+                Style="{StaticResource MiniButton}"/>
+        </Border>
+    </Grid>
+</Page>

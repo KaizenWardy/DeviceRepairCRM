@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\DeviceRepairCRM\DeviceRepairCRM\obj\Debug\
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\obj\Debug\
 DeviceRepairCRM
 none
 false
 DEBUG;TRACE
-E:\DeviceRepairCRM\DeviceRepairCRM\App.xaml
-665761239
+C:\Users\User\Desktop\DeviceRepairCRM-main\DeviceRepairCRM\App.xaml
+191859597943
 
-12550680665
+23314604394
 151937372271
-Frames\DeviceFrame.xaml;UserControls\DeviceFramePartsUC.xaml;UserControls\DeviceFrameUC.xaml;MainWindow.xaml;Frames\OrderFrame.xaml;UserControls\OrderFrameUC.xaml;
+Frames\ChangeStatusWarning.xaml;Frames\ClientFrame.xaml;Frames\DeviceFrame.xaml;Frames\MasterFrame.xaml;Frames\NewOrderFrames\ClientFrame.xaml;Frames\NewOrderFrames\DeviceSelectFrame.xaml;Frames\NewOrderFrames\NewOrderInfoFrame.xaml;NewOrderWindow.xaml;Styles\Colors.xaml;Styles\Style.xaml;UserControls\ClientFrameUC.xaml;UserControls\DeviceFramePartsUC.xaml;UserControls\DeviceFrameUC.xaml;MainWindow.xaml;Frames\OrderFrame.xaml;UserControls\DeviceSelectUC.xaml;UserControls\MasterFrameUC.xaml;UserControls\NewOrderClientUC.xaml;UserControls\OrderFrameUC.xaml;
 
 False
 

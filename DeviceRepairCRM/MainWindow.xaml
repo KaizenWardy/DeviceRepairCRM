@@ -4,44 +4,47 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Background="#1E1E1E"
-        Top="30"
-        Left="20"
-        Title="DeviceRepairCRM" Height="1080" Width="1920">
+        WindowState="Maximized"
+        ResizeMode="NoResize"
+        Background="{StaticResource BGDarkColor}"
+        Title="DesemberDesk" Height="1080" Width="1920">
+    
     <Grid Loaded="Grid_Loaded">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <StackPanel Background="#696969" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2">
-            <Border Margin="5,5,5,40" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button x:Name="MainFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Главная" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
-            </Border>
-            <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button x:Name="OrderFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Заказы" Foreground="#FFD700" FontSize="24" FontFamily="Segoe UI Black" Click="OrderFrameBt_Click"/>
-            </Border>
-            <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button x:Name="StorageFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Склад" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
-            </Border>
-            <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button x:Name="StoreFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Магазин" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
-            </Border>
-            <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button x:Name="HistoryFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="История" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
-            </Border>
-            <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button x:Name="MasterFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Мастера" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
-            </Border>
-            <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button x:Name="ClientFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Клиенты" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black"/>
-            </Border>
-            <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button x:Name="DeviceFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Content="Девайсы" Foreground="#1974D2" FontSize="24" FontFamily="Segoe UI Black" Click="DeviceFrameBt_Click"/>
-            </Border>
+        <StackPanel Background="{StaticResource BGSecondaryColor}" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2">
 
-            <Border Margin="5" BorderThickness="5" BorderBrush="#282828" CornerRadius="16" Background="#1E1E1E">
-                <Button x:Name="FastOrderFrameBt" Margin="5" Height="60" BorderBrush="Transparent" Background="Transparent" Foreground="#FFD700" FontSize="20" FontFamily="Segoe UI Black">
+            <Border Style="{StaticResource MainMenuBorder}">
+                <Button x:Name="OrderFrameBt" 
+                        Content="Заказы"
+                        Click="OrderFrameBt_Click"
+                        Style="{StaticResource MainMenuButton}"/>
+            </Border>
+            <Border Style="{StaticResource MainMenuBorder}">
+                <Button x:Name="MasterFrameBt"
+                        Content="Мастера"
+                        Style="{StaticResource MainMenuButton}"
+                        Click="MasterFrameBt_Click"/>
+            </Border>
+            <Border Style="{StaticResource MainMenuBorder}">
+                <Button x:Name="ClientFrameBt"
+                        Content="Клиенты"
+                        Style="{StaticResource MainMenuButton}" Click="ClientFrameBt_Click"/>
+            </Border>
+            <Border Style="{StaticResource MainMenuBorder}">
+                <Button x:Name="DeviceFrameBt" 
+                        Content="Склад"
+                        Style="{StaticResource MainMenuButton}"
+                        Click="DeviceFrameBt_Click"/>
+            </Border>
+            <Border Style="{StaticResource MainMenuBorder}">
+                <Button x:Name="FastOrderFrameBt"
+                        Style="{StaticResource MainMenuButton}"
+                        FontSize="20"
+                        Click="FastOrderFrameBt_Click">
                     <TextBlock TextWrapping="Wrap" Text="Быстрый заказ"/>
                 </Button>
             </Border>

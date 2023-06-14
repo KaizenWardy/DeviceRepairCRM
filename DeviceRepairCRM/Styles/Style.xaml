@@ -1,0 +1,92 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:DeviceRepairCRM">
+
+    <!--ELEMENTS-->
+    <Style TargetType="{x:Type Border}" x:Key="MainMenuBorder">
+        <Setter Property="Margin" Value="5" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="CornerRadius" Value="16" />
+        <Setter Property="Background" Value="{StaticResource BGFocusColor}" />
+        <Setter Property="Width" Value="190" />
+    </Style>
+
+    <Style TargetType="{x:Type Button}" x:Key="MainMenuButton">
+        <Setter Property="Height" Value="60" />
+        <Setter Property="BorderBrush" Value="Transparent" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontFamily" Value="Segoe UI Black" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Width" Value="190" />
+    </Style>
+
+    <Style TargetType="{x:Type TextBox}" x:Key="TextBoxBase">
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Background" Value="{StaticResource BGPrimaryColor}" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontFamily" Value="Segoe UI Black" />
+    </Style>
+
+    <Style TargetType="{x:Type TextBlock}" x:Key="TextBlockBase">
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontFamily" Value="Segoe UI Black" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+    </Style>
+
+    <Style TargetType="{x:Type TextBlock}" x:Key="TextOrderFrameUC">
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontFamily" Value="Segoe UI Black" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+    </Style>
+    
+    <!--MINI ELEMENTS-->
+    <Style TargetType="{x:Type Border}" x:Key="MiniBtBorder">
+        <Setter Property="Margin" Value="5" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="CornerRadius" Value="5" />
+        <Setter Property="Background" Value="{StaticResource BGFocusColor}" />
+        <Setter Property="Width" Value="150" />
+    </Style>
+    
+    <Style TargetType="{x:Type Button}" x:Key="MiniButton">
+        <Setter Property="Height" Value="40" />
+        <Setter Property="BorderBrush" Value="Transparent" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="FontFamily" Value="Segoe UI Black" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Width" Value="150" />
+    </Style>
+
+    <Style TargetType="{x:Type TextBox}" x:Key="MiniTextBox">
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Background" Value="{StaticResource BGPrimaryColor}" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="FontFamily" Value="Segoe UI Black" />
+    </Style>
+
+    <Style TargetType="{x:Type TextBlock}" x:Key="MiniTextBlock">
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="FontFamily" Value="Segoe UI Black" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+    </Style>
+</ResourceDictionary>

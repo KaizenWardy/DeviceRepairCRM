@@ -5,7 +5,8 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:DeviceRepairCRM"
       mc:Ignorable="d" 
-      d:DesignHeight="1052" d:DesignWidth="1512">
+      d:DesignHeight="1052"
+      d:DesignWidth="1512">
 
     <Grid Loaded="Grid_Loaded">
         <Grid.ColumnDefinitions>
@@ -14,20 +15,59 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.Column="0">
-            <Border Margin="5" BorderThickness="2" BorderBrush="#282828" CornerRadius="8" Background="#1E1E1E">
-                <Button Margin="5" Height="50" BorderBrush="Transparent" Background="Transparent" Content="В работе" Foreground="IndianRed" FontSize="24" FontFamily="Segoe UI Black"/>
+
+            <TextBlock 
+                Text="Поиск"
+                Style="{StaticResource TextBlockBase}"/>
+
+            <TextBox 
+                TextChanged="OrderSearchTextBox_TextChanged"
+                Style="{StaticResource TextBoxBase}"
+                Width="190"
+                Height="40"
+                Margin="4"
+                x:Name="OrderSearchTextBox"/>
+
+            <Border Style="{StaticResource MainMenuBorder}"
+                    Background="{StaticResource BGFocusColor}"
+                    Margin="5">
+                <Button x:Name="IsInQueueBt"
+                        Content="В очереди"
+                        Style="{StaticResource MainMenuButton}"
+                        Foreground="{StaticResource BGRedColor}" />
             </Border>
-            <Border Margin="5" BorderThickness="2" BorderBrush="#282828" CornerRadius="8" Background="#1E1E1E">
-                <Button Margin="5" Height="50" BorderBrush="Transparent" Background="Transparent" Content="Выполнен" Foreground="Green" FontSize="24" FontFamily="Segoe UI Black"/>
+
+            <Border Style="{StaticResource MainMenuBorder}"
+                    Background="{StaticResource BGFocusColor}"
+                    Margin="5">
+                <Button x:Name="IsCompleteBt"
+                        Content="Выполнен"
+                        Style="{StaticResource MainMenuButton}"
+                        Foreground="{StaticResource BGGreenColor}"/>
             </Border>
-            <Border Margin="5" BorderThickness="2" BorderBrush="#282828" CornerRadius="8" Background="#1E1E1E">
-                <Button Margin="5" Height="50" BorderBrush="Transparent" Background="Transparent" Content="Выдан" Foreground="Gray" FontSize="24" FontFamily="Segoe UI Black"/>
-            </Border>
+            
+            <ComboBox 
+            x:Name="DeviceTypeComboBox"
+            Grid.Column="1"
+            Width="180"
+            Height="40"
+            FontSize="19"
+            FontFamily="Segoe UI Black"
+            SelectedIndex="0"
+                Margin="0,10">
+                <ComboBoxItem Content="Тип устройства"/>
+                <ComboBoxItem Content="Телефон"/>
+                <ComboBoxItem Content="Планшет"/>
+            </ComboBox>
         </StackPanel>
         
-        <ScrollViewer Grid.Column="1" HorizontalScrollBarVisibility="Hidden">
-            <StackPanel x:Name="OrderPageStackPanel">
-            </StackPanel>
+        <ScrollViewer 
+            Grid.Column="1" 
+            HorizontalScrollBarVisibility="Hidden">
+            <WrapPanel
+                Width="1300"
+                x:Name="OrderPageStackPanel">
+            </WrapPanel>
         </ScrollViewer>
         
     </Grid>

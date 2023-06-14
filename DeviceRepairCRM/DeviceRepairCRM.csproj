@@ -57,7 +57,47 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Frames\ChangeStatusWarning.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Frames\ClientFrame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Frames\DeviceFrame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Frames\MasterFrame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Frames\NewOrderFrames\ClientFrame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Frames\NewOrderFrames\DeviceSelectFrame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Frames\NewOrderFrames\NewOrderInfoFrame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewOrderWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\Colors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\Style.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ClientFrameUC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -78,8 +118,32 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Connect.cs" />
+    <Compile Include="Frames\ChangeStatusWarning.xaml.cs">
+      <DependentUpon>ChangeStatusWarning.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Frames\ClientFrame.xaml.cs">
+      <DependentUpon>ClientFrame.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Frames\DeviceFrame.xaml.cs">
       <DependentUpon>DeviceFrame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Frames\MasterFrame.xaml.cs">
+      <DependentUpon>MasterFrame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Frames\NewOrderFrames\ClientFrame.xaml.cs">
+      <DependentUpon>ClientFrame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Frames\NewOrderFrames\DeviceSelectFrame.xaml.cs">
+      <DependentUpon>DeviceSelectFrame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Frames\NewOrderFrames\NewOrderInfoFrame.xaml.cs">
+      <DependentUpon>NewOrderInfoFrame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewOrderWindow.xaml.cs">
+      <DependentUpon>NewOrderWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ClientFrameUC.xaml.cs">
+      <DependentUpon>ClientFrameUC.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControls\DeviceFramePartsUC.xaml.cs">
       <DependentUpon>DeviceFramePartsUC.xaml</DependentUpon>
@@ -95,6 +159,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UserControls\DeviceSelectUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\MasterFrameUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\NewOrderClientUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserControls\OrderFrameUC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -103,6 +179,15 @@
   <ItemGroup>
     <Compile Include="Frames\OrderFrame.xaml.cs">
       <DependentUpon>OrderFrame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DeviceSelectUC.xaml.cs">
+      <DependentUpon>DeviceSelectUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MasterFrameUC.xaml.cs">
+      <DependentUpon>MasterFrameUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NewOrderClientUC.xaml.cs">
+      <DependentUpon>NewOrderClientUC.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControls\OrderFrameUC.xaml.cs">
       <DependentUpon>OrderFrameUC.xaml</DependentUpon>
@@ -132,14 +217,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Снимок экрана 2022-01-26 113826.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="UserControls\Снимок экрана 2022-01-26 113826.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Img\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

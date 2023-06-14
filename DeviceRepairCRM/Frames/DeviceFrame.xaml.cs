@@ -1,24 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace DeviceRepairCRM
 {
-    /// <summary>
-    /// Логика взаимодействия для DeviceFrame.xaml
-    /// </summary>
     public partial class DeviceFrame : Page
     {
         public DeviceFrame()
@@ -26,19 +12,15 @@ namespace DeviceRepairCRM
             InitializeComponent();
         }
 
-        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        public void Grid_Loaded(object sender, RoutedEventArgs e)
         {
             DeviceList.Children.Clear();
-            SqlDataReader reader = new Connect().SqlSelect($@"SELECT TOP (1000)
+            SqlDataReader reader = new Connect().SqlSelect($@"SELECT
             Device.Id
             ,Device.Article
             ,Device.Model
-            ,Manufacture.Name 
-            AS Manufacture
-            FROM [RepairShop].[dbo].[Device]
-            INNER JOIN
-            Manufacture 
-            ON Device.Manufacture = Manufacture.Id");
+            ,Manufacture
+            FROM [RepairShop].[dbo].[Device]");
             if (reader.HasRows)
             {
                 while (reader.Read())
@@ -46,15 +28,13 @@ namespace DeviceRepairCRM
                     DeviceFrameUC uc = new DeviceFrameUC();
                     uc.deviceFrame = this;
                     uc.Id = Convert.ToInt32(reader[0]);
-                    uc.DeviceManufacture.Content = reader[3];
-                    uc.DeviceArticle.Content = reader[1];
-                    uc.DeviceModel.Content = reader[2];
-                    
+                    uc.DeviceArticle.Text = reader[1].ToString();
+                    uc.DeviceModel.Text = reader[2].ToString();
+                    uc.DeviceManufacture.Text = reader[3].ToString();
+
                     DeviceList.Children.Add(uc);
                 }
             }
-
-            
         }
         public void DeviceOptionLoad(int id)
         {
@@ -62,29 +42,22 @@ namespace DeviceRepairCRM
             SqlDataReader reader = new Connect().SqlSelect($@"SELECT
                 Device.Article
                 ,Device.Model
-                ,Device.YearOfRelease
-                ,Manufacture.Name
-                AS Manufacture
+                ,Manufacture
                 FROM [RepairShop].[dbo].[Device]
-                INNER JOIN
-                Manufacture 
-                ON Device.Manufacture = Manufacture.Id
                 where Device.Id = {id}");
             if (reader.HasRows)
             {
                 while (reader.Read())
                 {
-                    DeviceName.Text = reader[3].ToString() +  " " + reader[1].ToString();
-                    DeviceArticle.Content = reader[0].ToString();
-                    DeviceReleaseYear.Content = reader[2].ToString();
+                    DeviceName.Text = reader[2].ToString() + " " + reader[1].ToString();
+                    DeviceArticle.Text = reader[0].ToString();
                 }
             }
             SqlDataReader reader1 = new Connect().SqlSelect($@"
                 SELECT TOP (1000)
                 Part.Id AS Id,
                 Part.Name AS Part,
-                Part.Quantity AS Quantity,
-                Part.Description AS Descriptoin
+                Part.Quantity AS Quantity
 
                 FROM [RepairShop].[dbo].[PartOfDevice]
                 INNER JOIN
@@ -102,7 +75,7 @@ namespace DeviceRepairCRM
                     uc.id = Convert.ToInt32(reader1[0]);
                     uc.deviceFrame = this;
                     uc.DevicePartName.Text = reader1[1].ToString();
-                    uc.DevicePartQuantity.Content = reader1[2].ToString();
+                    uc.DevicePartQuantity.Text = reader1[2].ToString();
 
                     DevicePartList.Children.Add(uc);
                 }

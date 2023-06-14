@@ -4,32 +4,64 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DeviceRepairCRM.UserControls"
-             mc:Ignorable="d" 
-             d:DesignHeight="100" d:DesignWidth="480" Margin="10">
+             mc:Ignorable="d"
+             Width="300" 
+             Margin="2"
+             Height="50"
+             Background="{StaticResource BGSecondaryColor}">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="50"/>
             <ColumnDefinition Width="60"/>
             <ColumnDefinition Width="50"/>
         </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="25"/>
-            <RowDefinition Height="25"/>
-            <RowDefinition Height="25"/>
-            <RowDefinition Height="25"/>
-        </Grid.RowDefinitions>
 
-        <Image x:Name="DevicePartImage" Grid.Column="0" Grid.Row="0" Grid.RowSpan="4" Source="/UserControls/Снимок экрана 2022-01-26 113826.png" Stretch="UniformToFill"/>
+        <TextBlock 
+            Style="{StaticResource MiniTextBlock}"
+            x:Name="DevicePartName"
+            Text="НазваниеДетали"
+            VerticalAlignment="Top"/>
 
-        <TextBlock x:Name="DevicePartName" Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" Text="НазваниеДетали" Foreground="AliceBlue" FontSize="16" FontFamily="Segoe UI Black"/>
-        <TextBlock x:Name="DevicePartDescription" Grid.Row="2" Grid.RowSpan="2" Grid.Column="1" TextWrapping="Wrap" Text="Вытащили из горящего зданияываываываываыва" Foreground="AliceBlue" FontSize="16" FontFamily="Segoe UI Black"/>
+        <Border Style="{StaticResource MiniBtBorder}"
+                Width="40" 
+                Grid.Column="3" 
+                Grid.Row="1">
+            <Button 
+                Style="{StaticResource MiniButton}"
+                x:Name="DevicePartIncreesBt"
+                Width="40"
+                VerticalAlignment="Top"
+                Content="+"
+                FontSize="38"
+                Padding="-10"/>
+        </Border>
 
-        <Button x:Name="DevicePartIncreesBt" Grid.Column="4" Grid.Row="1" Grid.RowSpan="2" HorizontalContentAlignment="Center" Content="+" Width="50" Background="#1E1E1E" BorderBrush="#282828" FontSize="40" Foreground="AliceBlue"/>
-        <Button x:Name="DevicePartDecreesBt" Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" HorizontalContentAlignment="Center" Content="-" Width="50" Background="#1E1E1E" BorderBrush="#282828" FontSize="40" Foreground="AliceBlue" Click="DevicePartDecreesBt_Click"/>
+        <Border Style="{StaticResource MiniBtBorder}"
+                Width="40" 
+                Grid.Column="1" 
+                Grid.Row="1">
+            <Button 
+                x:Name="DevicePartDecreesBt"
+                Click="DevicePartDecreesBt_Click"
+                Style="{StaticResource MiniButton}"
+                Width="40"
+                VerticalAlignment="Top"
+                Content="-"
+                FontSize="38"
+                Padding="-10"/>
+        </Border>
 
-        <Label x:Name="DevicePartQuantity" Grid.Column="3" HorizontalContentAlignment="Center" Grid.Row="1" Grid.RowSpan="2" Width="60" Content="2" Foreground="AliceBlue" FontSize="30" FontFamily="Segoe UI Black"/>
+        <TextBlock 
+            Style="{StaticResource MiniTextBlock}"
+            x:Name="DevicePartQuantity"
+            HorizontalAlignment="Center"
+            Grid.Column="2"
+            Grid.Row="1"
+            Width="50"
+            FontSize="40"
+            Height="50"
+            Text="99"/>
 
     </Grid>
 </UserControl>
